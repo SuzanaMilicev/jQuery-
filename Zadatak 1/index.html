@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery kalkulator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label for="Text1">Unesite prvi operand </label>
+        <input id="Text1" type="number"/>
+        <br>
+        <label for="Text2">Unesite drugi operand </label>
+        <input id="Text2" type="number"/>
+        <br>
+        <p>Operacija</p>
+        <input type="radio" id="addition" name="operation" value="addition">
+        <label for="addition">+</label>
+        <br>
+        <input type="radio" id="subtraction" name="operation" value="subtraction">
+        <label for="subtraction">-</label>
+        <br>
+        <input type="radio" id="multiplication" name="operation" value="multiplication">
+        <label for="multiplication">*</label>
+        <br>
+        <input type="radio" id="division" name="operation" value="division">
+        <label for="division">/</label>
+        <br>
+        
+        <button id="Button1" type="button" value="calculate" onclick="calculate()">Izracunaj</button>
+        <span id="span1"></span>
+    </form>
+    <script src="jquery-3.71.min.js"></script>
+    <script src="jsFile.js"></script>
+</body>
+
+</html>

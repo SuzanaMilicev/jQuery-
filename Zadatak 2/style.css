@@ -1,0 +1,17 @@
+th, td {
+    padding: 10px !important;
+    padding-right: 30px !important;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+input {
+    width: 350px !important;
+}
+
+#form-input {
+    padding-left: 350px;
+    display: none;
+}
